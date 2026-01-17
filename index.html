@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta
+            name="description"
+            content="Ansh Chourasiya - Professional portfolio and personal brand showcase."
+        />
+        <meta
+            name="keywords"
+            content="Ansh Chourasiya, portfolio, professional, developer, designer"
+        />
+        <meta name="author" content="Ansh Chourasiya" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+        <meta name="format-detection" content="telephone=no" />
+
+        <!-- Open Graph Tags -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ansh Chourasiya" />
+        <meta
+            property="og:description"
+            content="Ansh Chourasiya - Professional portfolio and personal brand showcase."
+        />
+        <meta property="og:image" content="main.png" />
+        <meta property="og:url" content="https://anshgotinspired.com" />
+        <meta property="og:site_name" content="Ansh Chourasiya" />
+        <meta property="og:locale" content="en_US" />
+
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ansh Chourasiya" />
+        <meta
+            name="twitter:description"
+            content="Ansh Chourasiya - Professional portfolio and personal brand showcase."
+        />
+        <meta name="twitter:image" content="main.png" />
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://anshgotinspired.com" />
+
+        <!-- Additional SEO Meta Tags -->
+        <meta
+            name="robots"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="language" content="English" />
+        <meta name="rating" content="general" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="main.png" />
+
+        <title>Ansh Chourasiya - Portfolio</title>
+        <style>
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                overflow-y: scroll;
+            }
+            body::-webkit-scrollbar {
+                display: none;
+            }
+            body {
+                overflow-x: hidden;
+                position: relative;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            img {
+                width: 100%;
+            }
+
+            .poster::-webkit-scrollbar {
+                display: none;
+            }
+            .poster {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                overflow-x: scroll;
+                left: 0%;
+            }
+
+            .posters {
+                scrollbar-width: none;
+                margin-left: 25%;
+                height: auto;
+                width: 400%;
+                z-index: 20;
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+
+            .pos1 {
+                top: 23%;
+            }
+            .pos2 {
+                top: 27.6%;
+            }
+            .pos3 {
+                top: 34%;
+            }
+            a {
+                position: absolute;
+                top: calc(45.3% - 74px);
+                left: 27%;
+                color: black;
+                height: 120px;
+                width: 45%;
+                z-index: 30;
+                border-radius: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="main.png" alt="Ansh Chourasiya - Portfolio" />
+        <div class="poster pos1" aria-hidden="true">
+            <img class="posters" src="grp1.png" alt="Poster 1" />
+        </div>
+        <div class="poster pos2">
+            <img class="posters" src="grp2.png" alt="Poster 2" />
+        </div>
+        <div class="poster pos3">
+            <img class="posters" src="grp3.png" alt="Poster 3" />
+        </div>
+        <a
+            href="https://drive.google.com/drive/folders/1tob2lze_R1u9aRlT_N5xObVEmluo5Yk-?usp=sharing"
+            target="_blank"
+        ></a>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ansh Chourasiya",
+                "url": "https://anshgotinspired.com",
+                "image": "main.png",
+                "jobTitle": "Professional",
+                "sameAs": [
+                    "https://twitter.com",
+                    "https://linkedin.com",
+                    "https://github.com"
+                ],
+                "description": "Ansh Chourasiya - Professional portfolio and personal brand showcase."
+            }
+        </script>
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Ansh Chourasiya",
+                "url": "https://anshgotinspired.com",
+                "description": "Ansh Chourasiya - Professional portfolio and personal brand showcase."
+            }
+        </script>
+        <script>
+            // Disable right-click
+            document.addEventListener("contextmenu", (e) => {
+                e.preventDefault();
+                return false;
+            });
+
+            // Disable F12, Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+Shift+J
+            document.addEventListener("keydown", (e) => {
+                if (
+                    e.key === "F12" ||
+                    (e.ctrlKey && e.shiftKey && e.key === "I") ||
+                    (e.ctrlKey && e.shiftKey && e.key === "C") ||
+                    (e.ctrlKey && e.shiftKey && e.key === "J")
+                ) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+        </script>
+    </body>
+</html>
